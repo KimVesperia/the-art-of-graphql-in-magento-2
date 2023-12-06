@@ -1,0 +1,26 @@
+{
+    "name": "buro210/magento2-module-graphql",
+    "description": "Basic graphql module.",
+    "require": {
+        "php": "^8.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary | MIT"
+    ],
+    "authors": [
+        {
+            "email": "kimphung@buro210.nl",
+            "name": "Kim Phung"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Buro210\\GraphQl\\": ""
+        }
+    }
+}
